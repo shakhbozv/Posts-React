@@ -1,0 +1,12 @@
+.my-card {
+    min-height: 800px;
+    transition: .5s;
+    margin: 20px;
+}
+.my-card:hover {
+    transform: scale(1.05);
+}
+
+.my-card img {
+    cursor: pointer;
+}
