@@ -70,6 +70,17 @@ function App(props) {
             createdAt: '11.10.2021',
             thumb: 'https://i0.wp.com/nuz.uz/wp-content/uploads/2021/10/photo_2021-10-11_15-48-09.jpg?w=1280&ssl=1',
             category: 'Политика'
+        },
+     {
+            id: 7,
+            title: 'Спецпредставитель по Афганистану встретился с конгрессменами',
+            body: 'На встрече с делегацией конгрессменов, возглавляемой председателем  Комитета по иностранным делам ' +
+                'Грегори Миксом, обсуждались текущее состояние и перспективы дальнейшего сотрудничества',
+            views: 605,
+            author: 'Repost.uz',
+            createdAt: '11.10.2021',
+            thumb: 'https://i0.wp.com/nuz.uz/wp-content/uploads/2021/10/photo_2021-10-11_15-48-09.jpg?w=1280&ssl=1',
+            category: 'Политика'
         }]
 
     const [posts, setPosts] = useState(initialPosts)
